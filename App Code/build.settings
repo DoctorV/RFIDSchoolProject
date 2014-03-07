@@ -1,0 +1,43 @@
+settings =
+{
+        orientation =
+        {
+                default = "landscapeRight",
+				content = "landscapeRight",
+				supported =
+					{
+							"landscapeRight"
+					},
+        },
+ 
+        iphone =
+        {
+                plist =
+                {
+                        UIPrerenderedIcon = true,
+						UIStatusBarHidden = true,
+						UIInterfaceOrientation = "UIInterfaceOrientationLandscapeRight",
+						CFBundleIconFiles = {
+							"Icon.png",
+							"Icon@2x.png",
+							"Icon-72.png",
+							"Icon-72@2x.png",
+							"Icon-Small-50.png",
+							"Icon-Small-50@2x.png",
+							"Icon-Small.png",
+							"Icon-Small@2x.png",
+							"icon_76x76.png",
+							"icon_120x120.png",
+							"icon_152x152.png",
+						},
+				},
+        },
+		android = 
+		{
+		   versionCode = "1",
+		   usesPermissions =
+			{
+			"android.permission.INTERNET",
+			},
+		},
+}
