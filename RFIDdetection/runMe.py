@@ -16,7 +16,7 @@ print ser.name
 
 # establish ftp connection
 ftp = FTP('ftp.octoleaf.com')
-ftp.login('forproject@octoleaf.com', '3Mse6099!')
+ftp.login('-', '-')
 print ftp.getwelcome()
 
 # To create an empty file
