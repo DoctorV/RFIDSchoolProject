@@ -109,8 +109,8 @@ end
 -- Establish ftp server connection
 local connection = ftp.newConnection{ 
                 host = "ftp.octoleaf.com",
-                user = "forproject@octoleaf.com", 
-                password = "3Mse6099!", 
+                user = "-", 
+                password = "-", 
         }
 
 		
@@ -279,4 +279,6 @@ checkFile()
 end
 
 main()
-
+
+
+
