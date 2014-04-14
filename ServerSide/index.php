@@ -4,8 +4,8 @@ $sec = 5;
 header("Refresh: $sec");
    
 $ftp_server = "ftp.octoleaf.com";
-$ftp_user = "forproject@octoleaf.com";
-$ftp_pass = "3Mse6099!";
+$ftp_user = "-";
+$ftp_pass = "-";
 
 $seconds = 10;
 
